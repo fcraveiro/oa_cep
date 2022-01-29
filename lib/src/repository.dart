@@ -1,7 +1,5 @@
 library oa_cep;
 
-import 'dart:developer';
-
 import 'package:dio/dio.dart';
 import 'model.dart';
 
@@ -12,7 +10,6 @@ class ViaCepRepository {
     if (campo.logradouro == null) {
       campo.cep = '99999999';
     }
-    log(campo.bairro.toString());
     return campo;
   }
 }

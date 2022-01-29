@@ -1,6 +1,6 @@
 name: oa_cep
 description: Package consulta Cep app OdontoAtual.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/fcraveiro/oa_cep
 
 environment:
